@@ -6,7 +6,9 @@
   </head>
   <body>
     <header class="page-header">
-      <a class="main-logo"><img class="logo" src="" alt="Логотип интернет-магазина «Девайс»"></a>
+      <a class="main-logo">
+        <img class="logo" src="" alt="Логотип интернет-магазина «Девайс»">
+      </a>
       <nav class="navigation">
         <ul class="navigation-list navigation-user">
           <li class="navigation-item">
@@ -117,20 +119,20 @@
             </li>
           </ol>
 
-          <table class="">
-            <tr>
-              <td>
+          <table class="specifications-table">
+            <tr class="specifications-table-row">
+              <td class="specifications-table-data">
                 800 м
               </td>
-              <td>
+              <td class="specifications-table-data">
                 50 м
               </td>
             </tr>
-            <tr>
-              <td>
+            <tr class="specifications-table-row">
+              <td class="specifications-table-data">
                 Дальность полета
               </td>
-              <td>
+              <td class="specifications-table-data">
                 Радиус поражения
               </td>
             </tr>
@@ -305,7 +307,9 @@
           Еженедельный дайджест с обзорами новинок, длительными тест-драйвами, распаковками, а также акции, спецпредложения и вот это вот всё.
         </p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-          <input class="field" type="email" id="newsletter-email" name="newsletter-email" placeholder="Ваш e-mail">
+          <label>
+            <input class="field" type="email" id="newsletter-email" name="newsletter-email" placeholder="Ваш e-mail">
+          </label>
           <button class="button newsletter-button" type="submit">
             Подписаться
           </button>
