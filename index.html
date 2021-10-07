@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <header class="page-header">
@@ -67,6 +68,9 @@
         <h2 class="visually-hidden">
           Промо-товары
         </h2>
+        <div class="card-number">
+          01
+        </div>
         <div class="card-gallery">
           <img class="slider-image" src="img/sliders/slider-1.png" alt="Промо-товары">
           <button class="slider-button slider-prev" type="button">
@@ -82,16 +86,14 @@
         </div>
 
         <div class="card-description">
-          <p class="card-tagline">
-            <b>
-              Порхает как бабочка, жалит как пчела!
-            </b>
+          <p class="large-text">
+            Порхает как бабочка, жалит как пчела!
           </p>
           <p class="card-description">
             Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.
           </p>
 
-          <a class="card-details" href="#">
+          <a class="card-details info-button" href="#">
             Подробнее
           </a>
 
@@ -120,7 +122,7 @@
           </ol>
 
           <table class="specifications-table">
-            <tr class="specifications-table-row">
+            <tr class="specifications-table-row first-row">
               <td class="specifications-table-data">
                 800 м
               </td>
@@ -128,7 +130,7 @@
                 50 м
               </td>
             </tr>
-            <tr class="specifications-table-row">
+            <tr class="specifications-table-row second-row">
               <td class="specifications-table-data">
                 Дальность полета
               </td>
@@ -194,24 +196,24 @@
         <div class="conditions-menu">
           <ul class="conditions-list">
             <li class="conditions-item">
-              <a class="conditions-menu-link" href="#">
+              <a class="conditions-menu-link conditions-menu-first-link info-button" href="#">
                 Доставка
               </a>
             </li>
             <li class="conditions-item">
-              <a class="conditions-menu-link" href="#">
+              <a class="conditions-menu-link info-button" href="#">
                 Гарантия
               </a>
             </li>
             <li class="conditions-item">
-              <a class="conditions-menu-link" href="#">
+              <a class="conditions-menu-link info-button" href="#">
                 Кредит
               </a>
             </li>
           </ul>
         </div>
         <div class="delivery">
-          <h2 class="section-title">
+          <h2 class="section-title large-text">
             Доставка
           </h2>
           <p class="delivery-description">
@@ -226,9 +228,7 @@
         </h2>
         <div class="delivery-rare-goods-button">
         <a class="rare-goods" href="#">
-          <p class="rare-goods-text">
-            Доставим редкий товар под заказ
-          </p>
+          Доставим редкий товар под заказ
         </a>
           <button class="info" type="button">
             <span class="visually-hidden">
@@ -239,7 +239,7 @@
       </section>
 
       <section class="about-us">
-        <h2 class="about-us-title section-title">
+        <h2 class="section-title large-text">
           О нас
         </h2>
         <p class="about-us-text text">
@@ -259,13 +259,13 @@
             ТоксБерри
           </li>
         </ul>
-        <a class="about-us-link about-link" href="#">
+        <a class="about-us-link info-button" href="#">
           Подробнее о нас
         </a>
       </section>
 
       <section class="contacts">
-        <h2 class="contacts-title section-title">
+        <h2 class="section-title large-text">
           Контакты
         </h2>
         <p class="contacts-text text">
@@ -279,30 +279,33 @@
           <p class="contacts-address-text">
             Санкт-Петербург, набережная реки Карповки, 5, литера П.
           </p>
-        <a class="contacts-phone" href="tel:+78128121212">
-          +7 (812) 812-12-12
+          <a class="contacts-phone" href="tel:+78128121212">
+            +7 (812) 812-12-12
+          </a>
+        </address>
+        <h3 class="section-subtitle">
+          Время работы
+        </h3>
+        <ul class="contacts-schedule">
+          <li class="schedule-item">
+            пн—пт: с 10:00 до 22:00
+          </li>
+          <li class="schedule-item">
+            сб—вс: с 10:00 до 19:00
+          </li>
+        </ul>
+        <a class="contacts-link info-button" href="#">
+          Напишите нам
         </a>
-      </address>
-      <h3 class="section-subtitle">
-        Время работы
-      </h3>
-      <ul class="contacts-schedule">
-        <li class="schedule-item">
-          пн—пт: с 10:00 до 22:00
-        </li>
-        <li class="schedule-item">
-          сб—вс: с 10:00 до 19:00
-        </li>
-      </ul>
-      <a class="contacts-link about-link" href="#">
-        Напишите нам
-      </a>
       </section>
 
       <section class="newsletter">
         <h2 class="visually-hidden">
           Рассылка
         </h2>
+        <p class="tagline large-text">
+          Подпишитесь на рассылку
+        </p>
         <p class="text newsletter-text">
           Еженедельный дайджест с обзорами новинок, длительными тест-драйвами, распаковками, а также акции, спецпредложения и вот это вот всё.
         </p>
@@ -310,11 +313,11 @@
           <label>
             <input class="field" type="email" id="newsletter-email" name="newsletter-email" placeholder="Ваш e-mail">
           </label>
-          <button class="button newsletter-button" type="submit">
+          <button class="newsletter-button info-button" type="submit">
             Подписаться
           </button>
         </form>
-        <span class="text small-text">
+        <span class="text">
           Это бесплатно
         </span>
       </section>
@@ -326,9 +329,7 @@
           <img class="footer-logo-pic" src="img/logos/footer-logo.svg" width="145" height="36" alt="Логотип интернет-магазина «Девайс»">
         </div>
         <address class="footer-address">
-          <p class="footer-address-text">
             Санкт-Петербург, набережная реки Карповки, 5, литера П.
-          </p>
         </address>
       </div>
 

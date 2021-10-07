@@ -1,0 +1,238 @@
+@font-face {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/rubik/rubik-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/rubik/rubik-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/rubik/rubik-800.woff2") format("woff2");
+  font-display: swap;
+}
+
+/* Raleway */
+@font-face {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/raleway/raleway-800.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-style: normal;
+  font-weight: normal;
+  background-color: #FFFFFF;
+  color: #444444;
+}
+
+.page-header {
+  background-color: #FFE17F;
+}
+
+.navigation-link,
+.output-button,
+.breadcrumbs-link {
+  color: #000000;
+  text-decoration: none;
+}
+
+.navigation-user,
+.output-button
+.breadcrumbs-link {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.main-navigation,
+.footer-center {
+  font-family: "Raleway", sans-serif;
+  line-height: 21px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.card-number {
+  background-color: #FFE17F;
+  color: #FFFFFF;
+  font-weight: 800;
+  font-size: 180px;
+}
+
+.large-text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.info-button {
+  font-family: "Raleway", sans-serif;
+  line-height: 21px;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+}
+
+.first-row {
+  font-size: 36px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.second-row {
+  font-size: 16px;
+}
+
+.categories-link {
+  font-family: "Raleway", sans-serif;
+  line-height: 24px;
+  font-weight: 800;
+  color: #000000;
+  text-decoration: none;
+}
+
+.conditions {
+  background-color: #F0F0F0;
+}
+
+.conditions-item:first-of-type {
+  background-color: #000000;
+}
+
+.conditions-menu-first-link {
+  color: #FFE17F;
+}
+
+.delivery-rare-goods {
+  background-color: #F0F0F0;
+  text-align: center;
+}
+
+.rare-goods {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+}
+
+.about-us-item {
+  line-height: 20px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.section-subtitle {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.contacts-address,
+.footer-address {
+  font-style: normal;
+}
+
+.contacts-phone {
+  color: #444444;
+}
+
+.main-inner {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.grey-area-first {
+  background-color: #E5E5E5;
+}
+
+.grey-area-second {
+  background-color: #EBEBEB;
+}
+
+.dark-grey-area {
+  background-color: #DCDCDC;
+}
+
+.catalog-filters-name {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+.catalog-filters-title {
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.price-sorting {
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.control-label,
+.select-control {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.product-card-title {
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.product-card-price {
+  line-height: 21px;
+  color: #444444;
+}
+
+.pagination-link {
+  font-size: 16px;
+  line-height: 19px;
+  color: #444444;
+  text-decoration: none;
+}
+
+.pagination-show-more,
+.pagination-prev,
+.pagination-next {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.page-footer,
+.page-footer a {
+  background-color: #444444;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.footer-phone {
+  font-size: 16px;
+}
