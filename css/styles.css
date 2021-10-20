@@ -31,7 +31,15 @@
   font-display: swap;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: "Rubik", sans-serif;
   font-size: 18px;
   line-height: 30px;
@@ -41,8 +49,33 @@ body {
   color: #444444;
 }
 
-.page-header {
+.navigation {
+  display: flex;
+  flex-direction: column;
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.main-logo {
+  display: block;
+  margin-left: 60px;
+}
+
+.navigations {
   background-color: #FFE17F;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.navigation-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 1040px;
+}
+
+.navigation-item:first-of-type {
+  margin-right: auto;
 }
 
 .navigation-link,
@@ -59,6 +92,15 @@ body {
   line-height: 19px;
 }
 
+.main-container {
+  flex-grow: 1;
+}
+
+.page-container {
+  width: 1160px;
+  margin: 0 auto;
+}
+
 .main-navigation,
 .footer-center {
   font-family: "Raleway", sans-serif;
@@ -67,11 +109,32 @@ body {
   text-transform: uppercase;
 }
 
+.index-column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-gallery {
+  width: 560px;
+}
+
+.card-description {
+  width: 560px;
+}
+
 .card-number {
+  width: 1160px;
+  margin: 0 auto;
   background-color: #FFE17F;
   color: #FFFFFF;
   font-weight: 800;
   font-size: 180px;
+}
+
+.nuber-of-card {
+  width: 250px;
+  margin-right: 60px;
+  margin-left: auto;
 }
 
 .large-text {
@@ -102,6 +165,17 @@ body {
   font-size: 16px;
 }
 
+.categories-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.categories-item {
+  width: 160px;
+}
+
 .categories-link {
   font-family: "Raleway", sans-serif;
   line-height: 24px;
@@ -111,7 +185,13 @@ body {
 }
 
 .conditions {
+  display: flex;
+  justify-content: space-between;
   background-color: #F0F0F0;
+}
+
+.conditions-menu {
+  width: 280px;
 }
 
 .conditions-item:first-of-type {
@@ -120,6 +200,11 @@ body {
 
 .conditions-menu-first-link {
   color: #FFE17F;
+}
+
+.delivery {
+  width: 500px;
+  justify-self: center;
 }
 
 .delivery-rare-goods {
@@ -137,6 +222,10 @@ body {
   color: #000000;
 }
 
+.about-us {
+  width: 500px;
+}
+
 .about-us-item {
   line-height: 20px;
   font-weight: bold;
@@ -146,6 +235,30 @@ body {
 .section-subtitle {
   font-size: 24px;
   font-weight: bold;
+}
+
+.contacts {
+  width: 520px;
+}
+
+.page-footer-container {
+  width: 1160px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.footer-left {
+  width: 250px;
+  margin-right: 130px;
+}
+
+.footer-center {
+  width: 450px;
+}
+
+.footer-right {
+  width: 200px;
+  margin-right: auto;
 }
 
 .contacts-address,
