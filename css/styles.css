@@ -275,7 +275,13 @@ body {
   color: #000000;
 }
 
+.catalog-products {
+  display: flex;
+}
+
 .grey-area-first {
+  width: 200px;
+  margin-right: 70px;
   background-color: #E5E5E5;
 }
 
@@ -285,6 +291,10 @@ body {
 
 .dark-grey-area {
   background-color: #DCDCDC;
+}
+
+.catalog-right-column {
+  width: 760px;
 }
 
 .catalog-filters-name {
