@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <title>Каталог</title>
     <link rel="stylesheet" href="css/styles.css">
-    <-- Повторная отправка -->
   </head>
   <body>
     <header class="page-header">
@@ -93,7 +92,7 @@
           </ul>
         </header>
         <section class="catalog-products">
-          <h2 class="visually-hidden" hidden>
+          <h2 class="visually-hidden">
             Список товаров с фильтрами
           </h2>
           <div class="grey-area-first">
@@ -207,7 +206,7 @@
             </form>
           </div>
           <div class="catalog-right-column">
-            <div class="grey-area-second">
+            <div class="sorting-container">
               <form class="sorting-type">
                 <label for="sorting">
                   <span class="catalog-filters-name">
@@ -286,10 +285,12 @@
                 </b>
               </li>
             </ul>
-            <button class="button pagination-show-more" type="button">
-              Загрузить ещё
-            </button>
-            <div class="grey-area-second">
+            <div class="download-more">
+              <button class="button pagination-show-more" type="button">
+                Загрузить ещё
+              </button>
+            </div>
+            <div class="pagination-container">
               <ul class="pagination">
                 <li class="pagination-item">
                   <a class="pagination-link pagination-prev">
@@ -394,13 +395,11 @@
             <img class="footer-logo-pic" src="img/logos/footer-logo.svg" width="145" height="36" alt="Логотип интернет-магазина «Девайс»">
           </div>
           <address class="footer-address">
-            <p class="footer-address-text">
-              Санкт-Петербург, набережная реки Карповки, 5, литера П.
-            </p>
+            Санкт-Петербург, набережная реки Карповки, 5, литера П.
           </address>
         </div>
         <div class="footer-center">
-          <ul class="footer-list">
+          <ul class="footer-list first-footer-column">
             <li class="footer-item">
               <a class="footer-link" href="#">
                 Доставка
@@ -417,7 +416,7 @@
               </a>
             </li>
           </ul>
-          <ul class="footer-social-list">
+          <ul class="footer-social-list second-footer-column">
             <li class="footer-social-item">
               <a class="button" href="#">
                 <span class="visually-hidden">
