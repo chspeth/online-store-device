@@ -561,13 +561,34 @@ body {
 }
 
 .product-list {
+  display: grid;
+  grid-template-columns: repeat(2, 360px);
   list-style-type: none;
   margin: 0;
   margin-bottom: 22px;
   padding: 0;
+  gap: 40px;
+}
+
+.product-card {
+  display: grid;
+  grid-template-rows: 380px auto;
+  grid-template-columns: 280px min-content;
+  gap: 32px 14px;
+}
+
+.product-card-image-link {
+  grid-column: 1 / -1;
+  background-color: #EBEBEB;
+}
+
+.product-card-title-link {
+  grid-column: 1 / 2;
 }
 
 .product-card-title {
+  margin: 0;
+  font-size: 18px;
   line-height: 24px;
   font-weight: bold;
 }
@@ -575,6 +596,8 @@ body {
 .product-card-price {
   line-height: 21px;
   color: #444444;
+  grid-column: 2 / 3;
+  justify-self: end;
 }
 
 .download-more {
