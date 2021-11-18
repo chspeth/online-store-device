@@ -96,32 +96,40 @@
             Список товаров с фильтрами
           </h2>
           <div class="background-filter-container">
+            <div class="dark-grey-area">
+              <span class="catalog-filters-name">
+                Фильтр:
+              </span>
+            </div>
             <form class="catalog-filters-form" action="https://echo.htmlacademy.ru/" method="get">
-              <div class="dark-grey-area">
-                <span class="catalog-filters-name">
-                  Фильтр:
-                </span>
-              </div>
               <fieldset class="catalog-filters-group">
                 <legend class="catalog-filters-title">
                   Стоимость
                 </legend>
-                <button class="range-toggle toggle-min" type="button">
-                  <span class="visually-hidden">
-                    Минимальная цена
-                  </span>
-                </button>
-                <button class="range-toggle toggle-max" type="button">
-                  <span class="visually-hidden">
-                    Максимальная цена
-                  </span>
-                </button>
-                <label class="price-sorting">
-                  от <input class="catalog-filters-input" type="number" name="min-price">
-                </label>
-                <label class="price-sorting">
-                  до <input class="catalog-filters-input" type="number" name="max-price">
-                </label>
+                <div class="range">
+                  <div class="range-scale">
+                    <div class="range-bar" style="left: 9px; width: 110px">
+                      <button class="range-toggle toggle-min" type="button">
+                        <span class="visually-hidden">
+                          Минимальная цена
+                        </span>
+                      </button>
+                      <button class="range-toggle toggle-max" type="button">
+                        <span class="visually-hidden">
+                          Максимальная цена
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="range-wrapper-inputs">
+                    <label class="price-sorting">
+                      от <input class="range-input" type="number" value="0" name="min-price">
+                    </label>
+                    <label class="price-sorting">
+                      до <input class="range-input" type="number" value="5000" name="max-price" style="width: 37px">
+                    </label>
+                  </div>
+                </div>
               </fieldset>
               <fieldset class="catalog-filters-group">
                 <legend class="catalog-filters-title">
@@ -182,7 +190,7 @@
                 <ul class="catalog-filters-list">
                   <li class="catalog-filters-item">
                     <label class="control">
-                      <input class="visually-hidden control-input" type="radio" name="bluetooth" value="yes">
+                      <input class="visually-hidden control-input" type="radio" name="bluetooth" value="yes" checked>
                       <span class="control-mark"></span>
                       <span class="control-label">
                         Есть
@@ -208,22 +216,24 @@
           <div class="catalog-right-column background-inner-container">
             <div class="sorting-container">
               <form class="sorting-type">
-                <label for="sorting">
-                  <span class="catalog-filters-name">
-                    Сортировка:
-                  </span>
-                </label>
-                <select class="select-control" id="sorting" name="sorting">
-                  <option value="popular">
-                    Сначала популярные
-                  </option>
-                  <option value="cheap">
-                    Сначала дешевые
-                  </option>
-                  <option value="expensive">
-                    Сначала дорогие
-                  </option>
-                </select>
+                <div class="select">
+                  <label for="sorting">
+                    <span class="catalog-filters-name">
+                      Сортировка:
+                    </span>
+                  </label>
+                  <select class="select-control" id="sorting" name="sorting">
+                    <option value="popular">
+                      Сначала популярные
+                    </option>
+                    <option value="cheap">
+                      Сначала дешевые
+                    </option>
+                    <option value="expensive">
+                      Сначала дорогие
+                    </option>
+                  </select>
+                </div>
                 <button class="visually-hidden" type="submit">
                   Отсортировать продукты
                 </button>
