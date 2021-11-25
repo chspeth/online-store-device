@@ -11,16 +11,22 @@
         <a class="main-logo inner-logo" href="index.html">
           <img class="logo" src="img/logos/main-logo.svg" width="145" height="36" alt="Логотип интернет-магазина «Девайс»">
         </a>
-        <div class="navigations">
+        <nav class="navigations inner-navigations">
           <ul class="navigation-list navigation-user">
-            <li class="navigation-item">
-              <a class="navigation-link link-search" href="#">
-                <span class="visually-hidden">
-                  Поиск
-                </span>
+            <li class="navigation-item search-item">
+              <a class="link-search" href="#">
+                <form class="search-form" action="https://echo.htmlacademy.ru/" method="get">
+                  <label class="visually-hidden" for="search">
+                    Поиск по сайту
+                  </label>
+                  <input class="search-field" id="search" type="search" name="search" placeholder="Поиск по сайту">
+                  <button class="search-button" type="submit">
+                    Найти
+                  </button>
+                </form>
               </a>
             </li>
-            <li class="navigation-item">
+            <li class="navigation-item user-item">
               <a class="navigation-link link-user" href="#">
                 Коля Петухов
               </a>
@@ -39,13 +45,95 @@
               <a class="navigation-link link-cart" href="#" data-amount="2">
                 Корзина
               </a>
+              <div class="popover popover-cart">
+                <div class="popover-content">
+                  <h2 class="popover-title visually-hidden">
+                    Корзина
+                  </h2>
+                  <button class="popover-close-button">
+                    <span class="visually-hidden">Закрыть</span>
+                  </button>
+                  <ul class="cart-items-list">
+                    <li class="cart-item">
+                      <img class="cart-item-pic first-cart-pic" src="/img/popover/product-1-small.png">
+                      <p class="cart-item-title first-item">
+                        Любительская селфи-палка
+                      </p>
+                      <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11 1L10 0L5.5 4.5L1 0L0 1L4.5 5.5L0 10L1 11L5.5 6.5L10 11L11 10L6.5 5.5L11 1Z" fill="white"/>
+                        </svg>
+                    </li>
+                    <li class="cart-item">
+                      <img class="cart-item-pic second-cart-pic" src="/img/popover/product-2-small.png">
+                      <p class="cart-item-title">
+                        Профессиональная <br>селфи-палка
+                      </p>
+                      <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11 1L10 0L5.5 4.5L1 0L0 1L4.5 5.5L0 10L1 11L5.5 6.5L10 11L11 10L6.5 5.5L11 1Z" fill="white"/>
+                        </svg>
+                    </li>
+                  </ul>
+                  <div class="goods-price">
+                    <span class="cart-goods">
+                      Товаров: 2
+                    </span>
+                    <span class="cart-price">
+                      Сумма: 2000 ₽
+                    </span>
+                  </div>
+                  <a class="popover-cart-link" href="#">
+                    Открыть корзину
+                  </a>
+                </div>
+              </div>
             </li>
           </ul>
           <ul class="navigation-list main-navigation">
-            <li class="navigation-item">
+            <li class="navigation-item navigation-first-item">
               <a class="navigation-link navigation-first-link" href="#">
                 Каталог товаров
               </a>
+              <svg class="catalog-button" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 7H9V0H7V7H0V9H7V16H9V9H16V7Z"/>
+              </svg>
+              <div class="subcatalog-menu">
+                <ul class="subcatalog">
+                  <li class="subcatalog-item">
+                    <a class="subcatalog-link" href="#">
+                      Виртуальная реальность
+                    </a>
+                  </li>
+                  <li class="subcatalog-item">
+                    <a class="subcatalog-link" href="/catalog-page.html">
+                      Моноподы для селфи
+                    </a>
+                  </li>
+                  <li class="subcatalog-item">
+                    <a class="subcatalog-link" href="#">
+                      Экшн-камеры
+                    </a>
+                  </li>
+                </ul>
+                <ul class="subcatalog">
+                  <li class="subcatalog-item">
+                    <a class="subcatalog-link" href="#">
+                      Фитнес-браслеты
+                    </a>
+                  </li>
+                  <li class="subcatalog-item">
+                    <a class="subcatalog-link" href="#">
+                      Умные часы
+                    </a>
+                  </li>
+                </ul>
+                <ul class="subcatalog">
+                  <li class="subcatalog-item">
+                    <a class="subcatalog-link" href="#">
+                      Квадрокоптеры
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </li>
             <li class="navigation-item">
               <a class="navigation-link" href="#">
@@ -256,7 +344,7 @@
               </a>
             </div>
             <ul class="product-list">
-              <li class="product-card">
+              <li class="product-card current-card">
                 <a class="product-card-image-link" href="#">
                   <img class="product-card-image" src="img/catalog/product-1.jpg" width="360" height="380" alt="Любительская селфи-палка">
                 </a>
@@ -268,6 +356,14 @@
                 <span class="product-card-price">
                   500 ₽
                 </span>
+                <div class="button-hover-container">
+                  <a class="show-more-button button-card" href="#">
+                    Подробнее
+                  </a>
+                </div>
+                <div class="new-sign">
+                  New
+                </div>
               </li>
               <li class="product-card">
                 <a class="product-card-image-link" href="#">
@@ -275,12 +371,20 @@
                 </a>
                 <a class="product-card-title-link" href="#">
                   <h3 class="product-card-title">
-                    Профессиональная селфи-палка  <!-- перенос строки -->
+                    Профессиональная <br>селфи-палка
                   </h3>
                 </a>
                 <span class="product-card-price">
                   1 500 ₽
                 </span>
+                <div class="button-hover-container">
+                  <a class="show-more-button button-card" href="#">
+                    Подробнее
+                  </a>
+                </div>
+                <div class="new-sign">
+                  New
+                </div>
               </li>
               <li class="product-card">
                 <a class="product-card-image-link" href="#">
@@ -294,8 +398,16 @@
                 <span class="product-card-price">
                   2 500 ₽
                 </span>
+                <div class="button-hover-container">
+                  <a class="show-more-button button-card" href="#">
+                    Подробнее
+                  </a>
+                </div>
+                <div class="new-sign">
+                  New
+                </div>
               </li>
-              <li class="product-card">
+              <li class="product-card new-product">
                 <a class="product-card-image-link" href="#">
                   <img class="product-card-image" src="img/catalog/product-4.jpg" width="360" height="380" alt="Селфи-палка «Следуй за мной»">
                 </a>
@@ -307,6 +419,14 @@
                 <span class="product-card-price">
                   4 900 ₽
                 </span>
+                <div class="button-hover-container">
+                  <a class="show-more-button button-card" href="#">
+                    Подробнее
+                  </a>
+                </div>
+                <div class="new-sign">
+                  New
+                </div>
               </li>
             </ul>
               <button class="download-more" type="button">

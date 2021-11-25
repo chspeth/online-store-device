@@ -13,11 +13,17 @@
         </a>
         <nav class="navigations">
           <ul class="navigation-list navigation-user">
-            <li class="navigation-item">
-              <a class="navigation-link link-search" href="#">
-                <span class="visually-hidden">
-                  Поиск
-                </span>
+            <li class="navigation-item search-item">
+              <a class="link-search" href="#">
+                <form class="search-form" action="https://echo.htmlacademy.ru/" method="get">
+                  <label class="visually-hidden" for="search">
+                    Поиск по сайту
+                  </label>
+                  <input class="search-field" id="search" type="search" name="search" placeholder="Поиск по сайту">
+                  <button class="search-button" type="submit">
+                    Найти
+                  </button>
+                </form>
               </a>
             </li>
             <li class="navigation-item">
@@ -78,42 +84,51 @@
             </li>
           </ul>
           <ul class="navigation-list main-navigation">
-            <li class="navigation-item">
+            <li class="navigation-item navigation-first-item">
               <a class="navigation-link navigation-first-link" href="#">
                 Каталог товаров
               </a>
-              <ul class="subcatalog">
-                <li class="subcatalog-item">
-                  <a class="subcatalog-link" href="#">
-                    Виртуальная реальность
-                  </a>
-                </li>
-                <li class="subcatalog-item">
-                  <a class="subcatalog-link" href="#">
-                    Моноподы для селфи
-                  </a>
-                </li>
-                <li class="subcatalog-item">
-                  <a class="subcatalog-link" href="#">
-                    Экшн-камеры
-                  </a>
-                </li>
-                <li class="subcatalog-item">
-                  <a class="subcatalog-link" href="#">
-                    Фитнес-браслеты
-                  </a>
-                </li>
-                <li class="subcatalog-item">
-                  <a class="subcatalog-link" href="#">
-                    Умные часы
-                  </a>
-                </li>
-                <li class="subcatalog-item">
-                  <a class="subcatalog-link" href="#">
-                    Квадрокоптеры
-                  </a>
-                </li>
-              </ul>
+              <svg class="catalog-button" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 7H9V0H7V7H0V9H7V16H9V9H16V7Z"/>
+              </svg>
+              <div class="subcatalog-menu">
+                <ul class="subcatalog">
+                  <li class="subcatalog-item">
+                    <a class="subcatalog-link" href="#">
+                      Виртуальная реальность
+                    </a>
+                  </li>
+                  <li class="subcatalog-item">
+                    <a class="subcatalog-link" href="/catalog-page.html">
+                      Моноподы для селфи
+                    </a>
+                  </li>
+                  <li class="subcatalog-item">
+                    <a class="subcatalog-link" href="#">
+                      Экшн-камеры
+                    </a>
+                  </li>
+                </ul>
+                <ul class="subcatalog">
+                  <li class="subcatalog-item">
+                    <a class="subcatalog-link" href="#">
+                      Фитнес-браслеты
+                    </a>
+                  </li>
+                  <li class="subcatalog-item">
+                    <a class="subcatalog-link" href="#">
+                      Умные часы
+                    </a>
+                  </li>
+                </ul>
+                <ul class="subcatalog">
+                  <li class="subcatalog-item">
+                    <a class="subcatalog-link" href="#">
+                      Квадрокоптеры
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </li>
             <li class="navigation-item">
               <a class="navigation-link" href="#">
@@ -135,7 +150,7 @@
       </div>
     </header>
 
-    <main class="main-page main-container">
+    <main class="main-container">
       <div class="page-container">
         <h1 class="visually-hidden">
           Интернет-магазин «Девайс»
@@ -162,7 +177,7 @@
                     </button>
                   </div>
                 </div>
-                <div class="card-description">
+                <div class="card-description card-one">
                   <p class="large-text">
                     Порхает как бабочка, жалит как пчела!
                   </p>
@@ -235,9 +250,9 @@
                     </button>
                   </div>
                 </div>
-                <div class="card-description">
+                <div class="card-description card-two">
                   <p class="large-text">
-                    Худеем правильно!
+                    Худеем <br>правильно!
                   </p>
                   <p class="card-text-description">
                     Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.
@@ -302,9 +317,9 @@
                     </button>
                   </div>
                 </div>
-                <div class="card-description">
+                <div class="card-description card-three">
                   <p class="large-text">
-                    Делай селфи, как Бен Стиллер!
+                    Делай селфи, <br>как Бен Стиллер!
                   </p>
                   <p class="card-text-description">
                     Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 кг.
@@ -382,12 +397,12 @@
               </a>
             </li>
             <li class="categories-item">
-              <a class="categories-link" href="#">
+              <a class="categories-link" href="/catalog-page.html">
                 <div class="categories-img-wrapper">
                   <img class="categories-img second-categories-img" src="/img/categories/popular-2.svg" width="86px" height="117px">
                 </div>
                 <span class="categories-name">
-                  Моноподы для селфи
+                  Моноподы <br>для селфи
                 </span>
               </a>
             </li>
@@ -440,18 +455,18 @@
             <div class="first-tab current-tab">
               <div class="conditions-menu">
                 <ul class="conditions-list">
-                  <li class="conditions-item current-condition">
-                    <a class="conditions-menu-link" href="#">
+                  <li class="conditions-item current-condition" tabindex="0">
+                    <a class="conditions-menu-link" tabindex="-1" href="#">
                       Доставка
                     </a>
                   </li>
-                  <li class="conditions-item">
-                    <a class="conditions-menu-link" href="#">
+                  <li class="conditions-item" tabindex="1">
+                    <a class="conditions-menu-link" tabindex="-1" href="#">
                       Гарантия
                     </a>
                   </li>
-                  <li class="conditions-item">
-                    <a class="conditions-menu-link" href="#">
+                  <li class="conditions-item" tabindex="2">
+                    <a class="conditions-menu-link" tabindex="-1" href="#">
                       Кредит
                     </a>
                   </li>
@@ -532,7 +547,7 @@
           <h2 class="visually-hidden">
             Доставка редких товаров
           </h2>
-          <div class="delivery-rare-goods-button">
+          <div class="delivery-rare-goods-button" tabindex="0">
             <img class="rare-goods-img" src="../img/icons/delivery-car.svg" width="47px" height="31px">
             <a class="rare-goods-link" href="#">
               Доставим редкий товар под заказ
@@ -626,7 +641,7 @@
                 Еженедельный дайджест с обзорами новинок, <br>длительными тест-драйвами, распаковками, а также акции, <br>спецпредложения и вот это вот всё.
               </p>
             </div>
-            <div class="index-column">
+            <div class="index-column newsletter-second-column">
               <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
                 <label>
                   <input class="field" type="email" id="newsletter-email" name="newsletter-email" placeholder="Ваш e-mail">
@@ -737,14 +752,20 @@
             <div class="field-group field-group-name">
               <label class="delivery-form-label">
                 Ваше имя:<br>
-                <input class="delivery-form-field field" type="text" placeholder="Имя Фамилия">
+                <input class="delivery-form-field field" type="text" placeholder="Имя Фамилия" required>
               </label>
+              <span class="name-request">
+                Пожалуйста, представьтесь
+              </span>
             </div>
             <div class="field-group field-group-email">
               <label class="delivery-form-label">
                 Ваш e-mail:<br>
-                <input class="delivery-form-field field" type="email" placeholder="krasotka92@mail.ru">
+                <input class="delivery-form-field field" type="email" placeholder="krasotka92@mail.ru" required>
               </label>
+              <span class="about-email-text">
+                Забавный у вас адрес
+              </span>
             </div>
             <div class="field-group field-group-order">
               <label class="delivery-form-label">
