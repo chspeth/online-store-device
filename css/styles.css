@@ -342,8 +342,8 @@ input:placeholder-shown ~ button[type="submit"] {
   min-height: 180px;
   width: 1115px;
   background-color: #FFE17F;
-  margin-left: -45px;
-  padding-left: 45px;
+  margin-left: -35px;
+  padding-left: 35px;
   z-index: 2;
 }
 
