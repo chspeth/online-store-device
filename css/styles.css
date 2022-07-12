@@ -281,7 +281,7 @@ input:placeholder-shown ~ button[type="submit"] {
 .catalog-button:hover {
   opacity: 1;
   fill: transparent;
-  background-image: url("/img/icons/catalog-minus.svg");
+  background-image: url("../img/icons/catalog-minus.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 16px 16px;
@@ -290,7 +290,7 @@ input:placeholder-shown ~ button[type="submit"] {
 .catalog-button:active {
   opacity: 0.3;
   fill: transparent;
-  background-image: url("/img/icons/catalog-minus.svg");
+  background-image: url("../img/icons/catalog-minus.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 16px 16px;
@@ -499,7 +499,7 @@ input:placeholder-shown ~ button[type="submit"] {
   height: 80px;
   color: #000000;
   background-color: transparent;
-  background-image: url("/img/icons/slider-arrow.svg");
+  background-image: url("../img/icons/slider-arrow.svg");
   background-position: center;
   background-repeat: no-repeat;
   border: 2px solid transparent;
@@ -846,14 +846,14 @@ input:placeholder-shown ~ button[type="submit"] {
   width: 171px;
   height: 195px;
   background-size: 171px 195px;
-  background-image: url("/img/icons/warranty.svg");
+  background-image: url("../img/icons/warranty.svg");
 }
 
 .third-tab .delivery::before {
   width: 156px;
   height: 188px;
   background-size: 156px 188px;
-  background-image: url("/img/icons/credit.svg");
+  background-image: url("../img/icons/credit.svg");
 }
 
 .delivery-description {
@@ -885,7 +885,7 @@ input:placeholder-shown ~ button[type="submit"] {
   border: none;
   background-color: rgba(220, 220, 220, 0.5);
 
-  background-image: url("/img/icons/info-i.svg");
+  background-image: url("../img/icons/info-i.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 2px 12px;
@@ -917,7 +917,7 @@ input:placeholder-shown ~ button[type="submit"] {
 }
 
 .delivery-rare-goods:hover .info {
-  background-image: url("/img/icons/info-i-black.svg");
+  background-image: url("../img/icons/info-i-black.svg");
 }
 
 .rare-goods-link:focus {
@@ -1252,7 +1252,7 @@ input:placeholder-shown ~ button[type="submit"] {
   width: 4px;
   height: 7px;
   background-size: 4px 7px;
-  background-image: url("/img/icons/arrow.svg");
+  background-image: url("../img/icons/arrow.svg");
   top: 13px;
   left: -17px;
 }
@@ -1332,7 +1332,7 @@ input:placeholder-shown ~ button[type="submit"] {
 .button-down svg {
   position: absolute;
   content: "";
-  background-image: url("/img/icons/sort.svg");
+  background-image: url("../img/icons/sort.svg");
   background-size: 11px 10px;
   width: 11px;
   height: 10px;
@@ -1520,7 +1520,7 @@ input:placeholder-shown ~ button[type="submit"] {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url("/img/icons/tick.svg");
+  background-image: url("../img/icons/tick.svg");
   background-size: 10px 10px;
   background-repeat: no-repeat;
   background-position: center;
@@ -1566,7 +1566,7 @@ input:placeholder-shown ~ button[type="submit"] {
   font-family: "Rubik", sans-serif;
   background-color: transparent;
   border: none;
-  background-image: url("/img/icons/select-arrow.svg");
+  background-image: url("../img/icons/select-arrow.svg");
   background-repeat: no-repeat;
   background-position: right 15px center;
   appearance: none;
@@ -1951,7 +1951,7 @@ input:placeholder-shown ~ button[type="submit"] {
   width: 14px;
   height: 16px;
   background-color: transparent;
-  background-image: url("/img/icons/popover-triangle.svg");
+  background-image: url("../img/icons/popover-triangle.svg");
   background-repeat: no-repeat;
   content: "";
 }
@@ -2095,7 +2095,7 @@ input:placeholder-shown ~ button[type="submit"] {
   background-color: #ffffff;
   border: 5px solid transparent;
   border-radius: 50%;
-  background-image: url("/img/icons/modal-close.svg");
+  background-image: url("../img/icons/modal-close.svg");
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
@@ -2177,12 +2177,12 @@ input:placeholder-shown ~ button[type="submit"] {
 }
 
 .field-group-name .field {
-  background-image: url("/img/icons/name-placeholder.svg");
+  background-image: url("../img/icons/name-placeholder.svg");
   background-size: 13px 12px;
 }
 
 .field-group-email .field {
-  background-image: url("/img/icons/email-placeholder.svg");
+  background-image: url("../img/icons/email-placeholder.svg");
   background-size: 15px 12px;
 }
 
