@@ -1,5 +1,5 @@
 @font-face {
-  font-family: Rubik;
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/rubik/rubik-400.woff2") format("woff2");
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: Rubik;
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 700;
   src: url("../fonts/rubik/rubik-700.woff2") format("woff2");
@@ -15,7 +15,7 @@
 }
 
 @font-face {
-  font-family: Rubik;
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 800;
   src: url("../fonts/rubik/rubik-800.woff2") format("woff2");
@@ -24,7 +24,7 @@
 
 /* Raleway */
 @font-face {
-  font-family: Raleway;
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
   src: url("../fonts/raleway/raleway-800.woff2") format("woff2");
@@ -45,9 +45,9 @@ body {
   line-height: 30px;
   font-style: normal;
   font-weight: normal;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: #444444;
-  overflow-x: hidden
+  overflow-x: hidden;
 }
 
 .visually-hidden {
@@ -66,7 +66,7 @@ body {
   flex-direction: column;
   width: 1160px;
   margin: 0 auto;
-  background: linear-gradient(to bottom, #ffffff 40px, #FFE17F 40px);
+  background: linear-gradient(to bottom, #ffffff 40px, #ffe17f 40px);
 }
 
 .main-logo {
@@ -147,7 +147,7 @@ input[type="search"]:hover::placeholder {
 }
 
 .link-search:focus .search-form {
-  border-color: #AF4FFF;
+  border-color: #af4fff;
 }
 
 .search-form:active,
@@ -160,7 +160,7 @@ input[type="search"]:hover::placeholder {
   border: 2px solid #000000;
   position: absolute;
   top: -2px;
-  border-radius: 0px 20px 20px 0px;
+  border-radius: 0 20px 20px 0;
   box-sizing: border-box;
   width: 160px;
 }
@@ -172,7 +172,7 @@ input[type="search"]:hover::placeholder {
 }
 
 .search-button:focus {
-  border-color: #AF4FFF;
+  border-color: #af4fff;
 }
 
 .search-button:active {
@@ -202,7 +202,7 @@ input:placeholder-shown ~ button[type="submit"] {
 }
 
 .navigation-user .navigation-link:focus {
-  border-color: #AF4FFF;
+  border-color: #af4fff;
 }
 
 .navigation-user .navigation-link:active {
@@ -302,7 +302,7 @@ input:placeholder-shown ~ button[type="submit"] {
 }
 
 .main-navigation .navigation-link:focus {
-  border-color: #AF4FFF;
+  border-color: #af4fff;
 }
 
 .main-navigation .navigation-link:active {
@@ -341,7 +341,7 @@ input:placeholder-shown ~ button[type="submit"] {
   display: none;
   min-height: 180px;
   width: 1125px;
-  background-color: #FFE17F;
+  background-color: #ffe17f;
   margin-left: -35px;
   padding-left: 35px;
   z-index: 2;
@@ -386,7 +386,7 @@ input:placeholder-shown ~ button[type="submit"] {
 }
 
 .subcatalog-link:focus {
-  border-color: #AF4FFF;
+  border-color: #af4fff;
 }
 
 .subcatalog-link:active {
@@ -403,33 +403,33 @@ input:placeholder-shown ~ button[type="submit"] {
 }
 
 .linear-card-background {
-  background: linear-gradient(to bottom,  #FFE17F 150px, #ffffff 150px);
+  background: linear-gradient(to bottom, #ffe17f 150px, #ffffff 150px);
 }
 
 .background-linear-container {
-  background: linear-gradient(to bottom, #ffffff 110px, #F0F0F0 110px);
+  background: linear-gradient(to bottom, #ffffff 110px, #f0f0f0 110px);
 }
 
 .background-container {
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
 }
 
 .background-filter-container {
   width: 328px;
   padding-left: 60px;
   box-sizing: border-box;
-  background: linear-gradient(to bottom, #DCDCDC 70px, #EBEBEB 70px);
+  background: linear-gradient(to bottom, #dcdcdc 70px, #ebebeb 70px);
 }
 
 .background-inner-container {
   width: 832px;
-  background: linear-gradient(to bottom, #EBEBEB 70px, #ffffff 70px);
+  background: linear-gradient(to bottom, #ebebeb 70px, #ffffff 70px);
 }
 
 .background-filter-container::before {
   position: absolute;
-  content: '';
-  background: linear-gradient(to bottom, #DCDCDC 70px, #EBEBEB 70px);
+  content: "";
+  background: linear-gradient(to bottom, #dcdcdc 70px, #ebebeb 70px);
   width: 100vw;
   height: 100%;
   z-index: -1;
@@ -438,8 +438,8 @@ input:placeholder-shown ~ button[type="submit"] {
 
 .background-inner-container::before {
   position: absolute;
-  content: '';
-  background: linear-gradient(to bottom, #EBEBEB 70px, #ffffff 70px);
+  content: "";
+  background: linear-gradient(to bottom, #ebebeb 70px, #ffffff 70px);
   width: 100vw;
   height: 100%;
   z-index: -1;
@@ -456,7 +456,6 @@ input:placeholder-shown ~ button[type="submit"] {
 
 .main-navigation {
   letter-spacing: 0.2em;
-
 }
 
 .inner-navigations .main-navigation {
@@ -514,7 +513,7 @@ input:placeholder-shown ~ button[type="submit"] {
 }
 
 .slider-button:focus {
-  border-color: #AF4FFF;
+  border-color: #af4fff;
 }
 
 .slider-button:active {
@@ -534,13 +533,13 @@ input:placeholder-shown ~ button[type="submit"] {
 
 .card-description .large-text::after {
   position: absolute;
-  content: '';
+  content: "";
 
   font-family: "Rubik", sans-serif;
   font-weight: 800;
   font-size: 180px;
   line-height: 30px;
-  color: #FFFFFF;
+  color: #ffffff;
 
   z-index: -1;
   top: -40px;
@@ -548,15 +547,15 @@ input:placeholder-shown ~ button[type="submit"] {
 }
 
 .card-one .large-text::after {
-  content: '01';
+  content: "01";
 }
 
 .card-two .large-text::after {
-  content: '02';
+  content: "02";
 }
 
 .card-three .large-text::after {
-  content: '03';
+  content: "03";
 }
 
 .card-text-description {
@@ -586,7 +585,7 @@ input:placeholder-shown ~ button[type="submit"] {
   height: 50px;
   padding-top: 14px;
   box-sizing: border-box;
-  background: linear-gradient(to bottom, transparent 21px, #FFE17F 21px, #FFE17F 29px, transparent 29px);
+  background: linear-gradient(to bottom, transparent 21px, #ffe17f 21px, #ffe17f 29px, transparent 29px);
 
   font-family: "Raleway", sans-serif;
   line-height: 21px;
@@ -603,11 +602,11 @@ input:placeholder-shown ~ button[type="submit"] {
 }
 
 .info-button:hover {
-  background-color: #FFE17F;
+  background-color: #ffe17f;
 }
 
 .info-button:focus {
-  background: linear-gradient(to bottom, transparent 21px, #AF4FFF 21px, #AF4FFF 29px, transparent 29px);
+  background: linear-gradient(to bottom, transparent 21px, #af4fff 21px, #af4fff 29px, transparent 29px);
 }
 
 .info-button:active {
@@ -633,7 +632,7 @@ input:placeholder-shown ~ button[type="submit"] {
   height: 12px;
   margin: 0;
   padding: 0;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border: 2px solid #000000;
   box-sizing: border-box;
   border-radius: 50%;
@@ -645,7 +644,7 @@ input:placeholder-shown ~ button[type="submit"] {
 }
 
 .slider-pagination-button:focus {
-  border-color: #AF4FFF;
+  border-color: #af4fff;
 }
 
 .slider-pagination-button:active {
@@ -692,7 +691,7 @@ input:placeholder-shown ~ button[type="submit"] {
   position: relative;
   width: 160px;
   height: 160px;
-  background-color: #FFE17F;
+  background-color: #ffe17f;
   box-sizing: border-box;
   margin-bottom: 25px;
 }
@@ -722,7 +721,7 @@ input:placeholder-shown ~ button[type="submit"] {
 }
 
 .categories-link:hover .categories-img-wrapper {
-  background-color: #FFC700;
+  background-color: #ffc700;
 }
 
 .categories-link:active img {
@@ -730,7 +729,7 @@ input:placeholder-shown ~ button[type="submit"] {
 }
 
 .categories-link:focus .categories-img-wrapper {
-  outline: 5px solid #AF4FFF;
+  outline: 5px solid #af4fff;
 }
 
 .categories-name {
@@ -750,7 +749,7 @@ input:placeholder-shown ~ button[type="submit"] {
 }
 
 .conditions::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 7px;
   background-color: #000000;
@@ -776,7 +775,7 @@ input:placeholder-shown ~ button[type="submit"] {
   height: 40px;
   margin-bottom: 25px;
 
-  background: linear-gradient(to bottom, transparent 16px, #FFC700 16px, #FFC700 24px, transparent 24px);
+  background: linear-gradient(to bottom, transparent 16px, #ffc700 16px, #ffc700 24px, transparent 24px);
   padding-top: 5px;
   box-sizing: border-box;
 }
@@ -787,11 +786,11 @@ input:placeholder-shown ~ button[type="submit"] {
 }
 
 .conditions-item:hover {
-  background-color: #FFC700;
+  background-color: #ffc700;
 }
 
 .conditions-item:focus {
-  background: linear-gradient(to bottom, transparent 16px, #AF4FFF 16px, #AF4FFF 24px, transparent 24px);
+  background: linear-gradient(to bottom, transparent 16px, #af4fff 16px, #af4fff 24px, transparent 24px);
 }
 
 .conditions-menu-link {
@@ -806,7 +805,7 @@ input:placeholder-shown ~ button[type="submit"] {
 
 .current-condition::after {
   position: absolute;
-  content: '';
+  content: "";
   height: 40px;
   width: 120px;
   top: 0;
@@ -820,7 +819,7 @@ input:placeholder-shown ~ button[type="submit"] {
 
 .current-condition .conditions-menu-link,
 .conditions-item:active .conditions-menu-link {
-  color: #FFE17F;
+  color: #ffe17f;
 }
 
 .delivery {
@@ -831,7 +830,7 @@ input:placeholder-shown ~ button[type="submit"] {
 
 .delivery::before {
   position: absolute;
-  content: '';
+  content: "";
   left: 560px;
   top: 15px;
 }
@@ -864,7 +863,7 @@ input:placeholder-shown ~ button[type="submit"] {
 
 .delivery-rare-goods {
   position: relative;
-  background: linear-gradient(to right, #FFE17F 125px, #F0F0F0 125px);
+  background: linear-gradient(to right, #ffe17f 125px, #f0f0f0 125px);
   min-height: 100px;
   padding-top: 40px;
   margin-bottom: 100px;
@@ -894,7 +893,7 @@ input:placeholder-shown ~ button[type="submit"] {
 
 .rare-goods-img {
   position: absolute;
-  content: '';
+  content: "";
   width: 47px;
   height: 31px;
   left: 39px;
@@ -914,7 +913,7 @@ input:placeholder-shown ~ button[type="submit"] {
 }
 
 .delivery-rare-goods:hover {
-  background: linear-gradient(to right, #FFC700 125px, #F0F0F0 125px);
+  background: linear-gradient(to right, #ffc700 125px, #f0f0f0 125px);
 }
 
 .delivery-rare-goods:hover .info {
@@ -922,7 +921,7 @@ input:placeholder-shown ~ button[type="submit"] {
 }
 
 .rare-goods-link:focus {
-  outline: 5px solid #AF4FFF;
+  outline: 5px solid #af4fff;
   outline-offset: 35px;
 }
 
@@ -947,10 +946,10 @@ input:placeholder-shown ~ button[type="submit"] {
 }
 
 .about-us-list li {
-  color: #FFC700;
+  color: #ffc700;
 }
 
-.about-us-list li > span{
+.about-us-list li > span {
   color: #000000;
 }
 
@@ -1025,7 +1024,7 @@ input:placeholder-shown ~ button[type="submit"] {
 .newsletter {
   padding-top: 75px;
   padding-bottom: 120px;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
 }
 
 .newsletter-first-column {
@@ -1073,7 +1072,7 @@ input:placeholder-shown ~ button[type="submit"] {
 }
 
 .field:focus {
-  background-color: #DCDCDC;
+  background-color: #dcdcdc;
   outline: none;
 }
 
@@ -1084,7 +1083,7 @@ input:placeholder-shown ~ button[type="submit"] {
 }
 
 .newsletter-form input[type="email"]:disabled {
-  border-color: #FF3D3D;
+  border-color: #ff3d3d;
 }
 
 .newsletter-button {
@@ -1110,18 +1109,13 @@ input:placeholder-shown ~ button[type="submit"] {
 }
 
 .newsletter-button:focus {
-  border-color: #AF4FFF;
+  border-color: #af4fff;
 }
 
 .newsletter-button:active {
   background-color: #000000;
   border-color: #000000;
   color: rgba(255, 255, 255, 0.3);
-}
-
-.page-footer {
-  padding-top: 61px;
-  padding-bottom: 60px;
 }
 
 .page-footer-container {
@@ -1187,8 +1181,8 @@ input:placeholder-shown ~ button[type="submit"] {
   width: 80px;
   height: 7px;
   bottom: -40px;
-  background-color: #FFC700;
-  content: '';
+  background-color: #ffc700;
+  content: "";
 }
 
 .contacts-phone {
@@ -1201,7 +1195,7 @@ input:placeholder-shown ~ button[type="submit"] {
 
 .free-text::before {
   position: absolute;
-  content: '';
+  content: "";
   width: 14px;
   height: 14px;
   background-size: 14px 14px;
@@ -1217,7 +1211,7 @@ input:placeholder-shown ~ button[type="submit"] {
 }
 
 .output-button {
-  font-family: Rubik, sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
   line-height: 19px;
   opacity: 0.3;
@@ -1254,7 +1248,7 @@ input:placeholder-shown ~ button[type="submit"] {
 
 .breadcrumbs-item:not(:first-of-type)::before {
   position: absolute;
-  content: '';
+  content: "";
   width: 4px;
   height: 7px;
   background-size: 4px 7px;
@@ -1278,7 +1272,7 @@ input:placeholder-shown ~ button[type="submit"] {
 .delivery-submit-button {
   border: none;
   width: 200px;
-  background: linear-gradient(to bottom, transparent 7px, #FFC700 7px, #FFC700 7px, #FFC700 15px, transparent 15px);
+  background: linear-gradient(to bottom, transparent 7px, #ffc700 7px, #ffc700 7px, #ffc700 15px, transparent 15px);
 
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -1299,7 +1293,7 @@ input:placeholder-shown ~ button[type="submit"] {
 }
 
 .show-more-button:hover {
-  background-color: #FFC700;
+  background-color: #ffc700;
 }
 
 .show-more-button:active {
@@ -1337,7 +1331,7 @@ input:placeholder-shown ~ button[type="submit"] {
 .button-up svg,
 .button-down svg {
   position: absolute;
-  content: '';
+  content: "";
   background-image: url("/img/icons/sort.svg");
   background-size: 11px 10px;
   width: 11px;
@@ -1355,7 +1349,7 @@ input:placeholder-shown ~ button[type="submit"] {
 }
 
 .button-up:hover svg,
-.button-down:hover svg{
+.button-down:hover svg {
   opacity: 0.5;
 }
 
@@ -1366,8 +1360,8 @@ input:placeholder-shown ~ button[type="submit"] {
 }
 
 .button-up:focus,
-.button-down:focus{
-  outline: 5px solid #AF4FFF;
+.button-down:focus {
+  outline: 5px solid #af4fff;
 }
 
 .catalog-filters-name {
@@ -1405,7 +1399,7 @@ input:placeholder-shown ~ button[type="submit"] {
 }
 
 .catalog-filters-group::before {
-  content:'';
+  content: "";
   position: absolute;
   left: 0;
   right: 69px;
@@ -1418,7 +1412,7 @@ input:placeholder-shown ~ button[type="submit"] {
   height: 2px;
   margin-right: 69px;
   margin-bottom: 15px;
-  background-color: #DCDCDC;
+  background-color: #dcdcdc;
 }
 
 .range-bar {
@@ -1431,7 +1425,7 @@ input:placeholder-shown ~ button[type="submit"] {
   position: absolute;
   width: 18px;
   height: 18px;
-  background: #EBEBEB;
+  background: #ebebeb;
   border: 2px solid #000000;
   border-radius: 50%;
   cursor: pointer;
@@ -1439,8 +1433,8 @@ input:placeholder-shown ~ button[type="submit"] {
 }
 
 .range-toggle:focus {
-  border-color: #AF4FFF;
-  background: #EBEBEB;
+  border-color: #af4fff;
+  background: #ebebeb;
 }
 
 .range-toggle:active {
@@ -1508,7 +1502,7 @@ input:placeholder-shown ~ button[type="submit"] {
   height: 16px;
   border: 2px solid #000000;
   border-radius: 3px;
-  background: #EBEBEB;
+  background: #ebebeb;
   opacity: 0.2;
 }
 
@@ -1569,7 +1563,7 @@ input:placeholder-shown ~ button[type="submit"] {
 .select-control {
   width: 225px;
   padding: 4px 12px 7px;
-  font-family: Rubik, sans-serif;
+  font-family: "Rubik", sans-serif;
   background-color: transparent;
   border: none;
   background-image: url("/img/icons/select-arrow.svg");
@@ -1584,7 +1578,7 @@ input:placeholder-shown ~ button[type="submit"] {
 }
 
 .select-control:focus {
-  outline: 5px solid #AF4FFF;
+  outline: 5px solid #af4fff;
 }
 
 .select-control:active {
@@ -1632,20 +1626,20 @@ input:placeholder-shown ~ button[type="submit"] {
 }
 
 .product-card:focus img {
-  outline: 5px solid #AF4FFF;
+  outline: 5px solid #af4fff;
 }
 
 .product-card-image-link {
   grid-column: 1 / -1;
-  background-color: #EBEBEB;
+  background-color: #ebebeb;
 }
 
 .product-card-image-link:focus {
-  outline: 5px solid #AF4FFF;
+  outline: 5px solid #af4fff;
 }
 
 .product-card-image-link:focus + a {
-  color: #AF4FFF;
+  color: #af4fff;
 }
 
 .product-card-title-link {
@@ -1680,7 +1674,7 @@ input:placeholder-shown ~ button[type="submit"] {
   border: 2px solid rgba(0, 0, 0, 0.6);
   border-radius: 50%;
   box-sizing: border-box;
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 14px;
   line-height: 16px;
@@ -1704,7 +1698,7 @@ input:placeholder-shown ~ button[type="submit"] {
   background-color: transparent;
   border: 3px solid rgba(0, 0, 0, 0.1);
 
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 16px;
   line-height: 19px;
@@ -1717,7 +1711,7 @@ input:placeholder-shown ~ button[type="submit"] {
 }
 
 .download-more:focus {
-  outline: 5px solid #AF4FFF;
+  outline: 5px solid #af4fff;
   outline-offset: -2px;
 }
 
@@ -1733,7 +1727,7 @@ input:placeholder-shown ~ button[type="submit"] {
   width: 760px;
   margin-left: auto;
   margin-bottom: 77px;
-  background-color: #EBEBEB;
+  background-color: #ebebeb;
 }
 
 .pagination {
@@ -1762,7 +1756,7 @@ input:placeholder-shown ~ button[type="submit"] {
 }
 
 .pagination-link:focus {
-  border-color: #AF4FFF;
+  border-color: #af4fff;
 }
 
 .pagination-link:active {
@@ -1786,11 +1780,11 @@ input:placeholder-shown ~ button[type="submit"] {
 }
 
 .pagination-button:hover {
-  background-color: #DCDCDC;
+  background-color: #dcdcdc;
 }
 
 .pagination-button:focus {
-  outline: 5px solid #AF4FFF;
+  outline: 5px solid #af4fff;
   outline-offset: -5px;
 }
 
@@ -1800,12 +1794,14 @@ input:placeholder-shown ~ button[type="submit"] {
 }
 
 .page-footer {
+  padding-top: 61px;
+  padding-bottom: 60px;
   background-color: #444444;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .page-footer a {
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -1820,17 +1816,17 @@ input:placeholder-shown ~ button[type="submit"] {
 }
 
 .footer-link:hover {
-  color: #FFC700;
+  color: #ffc700;
   text-decoration: underline;
   text-underline-offset: 8px;
 }
 
 .footer-link:focus {
-  border-color: #AF4FFF;
+  border-color: #af4fff;
 }
 
 .footer-link:active {
-  color: #FFC700;
+  color: #ffc700;
   text-decoration: underline;
   text-underline-offset: 8px;
   opacity: 0.3;
@@ -1866,11 +1862,11 @@ input:placeholder-shown ~ button[type="submit"] {
 }
 
 .social-link:hover {
-  background-color: #FFC700;
+  background-color: #ffc700;
 }
 
 .social-link:focus {
-  border-color: #AF4FFF;
+  border-color: #af4fff;
 }
 
 .social-link:active svg {
@@ -1890,15 +1886,15 @@ input:placeholder-shown ~ button[type="submit"] {
 }
 
 .footer-phone:hover {
-  color: #FFC700;
+  color: #ffc700;
 }
 
 .footer-phone:focus {
-  border-color: #AF4FFF;
+  border-color: #af4fff;
 }
 
 .footer-phone:active {
-  color: #FFC700;
+  color: #ffc700;
   opacity: 0.3;
 }
 
@@ -1915,21 +1911,21 @@ input:placeholder-shown ~ button[type="submit"] {
 }
 
 .htmlacademy-link svg {
-  fill: #FFC700;
+  fill: #ffc700;
 }
 
 .htmlacademy-link:hover svg {
-  fill: #FFFFFF;
+  fill: #ffffff;
   opacity: 1;
 }
 
 .htmlacademy-link:active svg {
-  fill: #FFFFFF;
+  fill: #ffffff;
   opacity: 0.3;
 }
 
 .htmlacademy-link:focus {
-  border-color: #AF4FFF;
+  border-color: #af4fff;
 }
 
 .popover {
@@ -1941,10 +1937,10 @@ input:placeholder-shown ~ button[type="submit"] {
   width: 250px;
   padding: 20px;
   font: inherit;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #000000;
   min-height: 218px;
-  box-shadow: 0px 10px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 0 rgba(0, 0, 0, 0.1);
   display: none;
 }
 
@@ -1957,7 +1953,7 @@ input:placeholder-shown ~ button[type="submit"] {
   background-color: transparent;
   background-image: url("/img/icons/popover-triangle.svg");
   background-repeat: no-repeat;
-  content: '';
+  content: "";
 }
 
 .popover-open {
@@ -2020,34 +2016,34 @@ input:placeholder-shown ~ button[type="submit"] {
   justify-content: space-between;
   padding-top: 12px;
   padding-bottom: 12px;
-  background-color: #1A1A1A;
+  background-color: #1a1a1a;
 }
 
 .goods-price::before {
   position: absolute;
-  content: '';
+  content: "";
   height: 100%;
   width: 20px;
   left: -20px;
   top: 0;
-  background-color: #1A1A1A;
+  background-color: #1a1a1a;
 }
 
 .goods-price::after {
   position: absolute;
-  content: '';
+  content: "";
   height: 100%;
   width: 20px;
   right: -20px;
   top: 0;
-  background-color: #1A1A1A;
+  background-color: #1a1a1a;
 }
 
 .popover-cart-link {
   display: inline-block;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: #000000;
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   line-height: 21px;
   text-decoration: none;
@@ -2076,7 +2072,7 @@ input:placeholder-shown ~ button[type="submit"] {
   position: relative;
   margin: auto;
   padding: 80px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border: 10px solid #000000;
   box-sizing: border-box;
 }
@@ -2091,7 +2087,6 @@ input:placeholder-shown ~ button[type="submit"] {
 
 .modal-close-button {
   position: absolute;
-  padding: 0;
   top: 80px;
   right: 70px;
   width: 26px;
@@ -2111,10 +2106,10 @@ input:placeholder-shown ~ button[type="submit"] {
 }
 
 .modal-close-button:focus {
-  border-color: #AF4FFF;
+  border-color: #af4fff;
 }
 
-.modal-close-button:hover {
+.modal-close-button:active {
   opacity: 0.3;
 }
 
@@ -2138,7 +2133,7 @@ input:placeholder-shown ~ button[type="submit"] {
 
 .delivery-form .delivery-form-field {
   padding: 20px;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   color: #000000;
   font-family: inherit;
   font-size: 16px;
@@ -2157,7 +2152,7 @@ input:placeholder-shown ~ button[type="submit"] {
   position: absolute;
   bottom: -25px;
   left: 0;
-  color: #FF3D3D;
+  color: #ff3d3d;
   font-size: 14px;
   line-height: 20px;
 }
@@ -2173,10 +2168,6 @@ input:placeholder-shown ~ button[type="submit"] {
 
 .field-group-order .field {
   width: 560px;
-}
-
-.field-group-number .field {
-  width: 160px;
 }
 
 .field-group-name .field,
@@ -2197,6 +2188,7 @@ input:placeholder-shown ~ button[type="submit"] {
 
 .field-group-number .field {
   position: relative;
+  width: 160px;
 }
 
 .field-group-name {
