@@ -1,43 +1,36 @@
 # Личный проект «Девайс»
 
-* Студент: [Валерия Полянская](https://up.htmlacademy.ru/htmlcss/32/user/605741).
-* Наставник: [Дмитрий Железцов](https://htmlacademy.ru/profile/sench).
+## Главная страница:
+![image](https://user-images.githubusercontent.com/79718282/184409213-1ba0db19-18e6-474e-92dd-19676c35bdf9.png)
 
----
+----
+* Подготовлена вёрстка поповера у кнопки "корзина"
 
-_Не удаляйте и не обращайте внимание на файлы:_<br>
-_`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`._
+![image](https://user-images.githubusercontent.com/79718282/184411912-ef73c918-c3a1-4696-9afb-4a339ecb986c.png)
 
----
+* Скрытое подменю появляется при фокусе на кнопке "каталог товаров"
 
-### Памятка
+![image](https://user-images.githubusercontent.com/79718282/184412174-5719e7d7-c88c-4d06-92f0-109a23d33e74.png)
 
-#### 1. Зарегистрируйтесь на Гитхабе
+* Свёрстаны три варианта слайдера
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79718282/184415384-c3960e34-f4c2-466f-887a-9fb1bcc04048.png">
+</p>
 
-Если у вас ещё нет аккаунта на [github.com](https://github.com/join), скорее зарегистрируйтесь.
+* Также три варианта табов
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79718282/184416532-d28afd8c-dcfa-47e0-9f03-5fd84731b338.png">
+</p>
 
-#### 2. Создайте форк
+* Реализована вёрстка модального окна
 
-[Откройте мастер-репозиторий](https://github.com/htmlacademy-htmlcss/605741-device-32) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии скопируется в ваш аккаунт.
+![image](https://user-images.githubusercontent.com/79718282/184412860-fe5f6075-ae9e-4229-add0-b9904bf402b9.png)
 
-<img width="769" alt="" src="https://user-images.githubusercontent.com/10909/29038004-a420d688-7bae-11e7-9a40-8f72e1f3cac4.jpg">
+* Переход на вторую страницу осуществляется при нажатии на кнопку "моноподы для селфи" в подменю или под слайдером
+![image](https://user-images.githubusercontent.com/79718282/184413298-d919f5c4-fc0c-4153-a316-8eb0f3427ed6.png)
+![image](https://user-images.githubusercontent.com/79718282/184413413-c1aec2f4-cdbe-4f60-8a87-9a88239c3986.png)
 
-Получится вот так:
+## Страница каталога
+![image](https://user-images.githubusercontent.com/79718282/184413799-8bf197b8-efcc-4499-8505-fd4cb2868f7c.png)
 
-<img width="769" alt="" src="https://user-images.githubusercontent.com/10909/29038006-a4ff0afc-7bae-11e7-9786-c06aa082f7a4.jpg">
-
-#### 3. Клонируйте репозиторий на свой компьютер
-
-Будьте внимательны: нужно клонировать свой репозиторий (форк), а не репозиторий Академии. Нажмите кнопку «Clone or download», а затем «Open in Desktop», чтобы клонировать репозиторий через программу [GitHub Desktop](https://desktop.github.com):
-
-<img width="769" alt="" src="https://user-images.githubusercontent.com/10909/29038009-a63d0cca-7bae-11e7-9c84-95e21fcbff13.jpg">
-
-Программа клонирует репозиторий на ваш компьютер и подготовит всё необходимое для старта работы.
-
-#### 4. Начинайте обучение!
-
----
-
-<a href="https://htmlacademy.ru/intensive/htmlcss"><img align="left" width="50" height="50" alt="HTML Academy" src="https://up.htmlacademy.ru/static/img/intensive/htmlcss/logo-for-github-2.png"></a>
-
-Репозиторий создан для обучения на профессиональном онлайн‑курсе «[HTML и CSS. Профессиональная вёрстка сайтов](https://htmlacademy.ru/intensive/htmlcss)» от [HTML Academy](https://htmlacademy.ru).
+На странице каталога подготовлена форма для фильтров, разметка каталога, пагинация
